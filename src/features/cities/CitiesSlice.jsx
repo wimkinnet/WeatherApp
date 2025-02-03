@@ -13,7 +13,8 @@ const citiesSlice = createSlice({
                 country: action.payload.country,
                 latitude: action.payload.latitude,
                 longitude: action.payload.longitude,
-                elevation: action.payload.elevation
+                elevation: action.payload.elevation,
+                population: action.payload.population
             }
             store.cities[action.payload.id] = city
         }

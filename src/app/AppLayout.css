@@ -6,16 +6,15 @@
 
 .weather-container {
     box-sizing: border-box;
-    border: 1px solid black;
-    border-radius: 20px;
+    border-right: 1px solid darkolivegreen;
     margin: 20px;
     width: 60%;
 }
 
 .city-container {
     box-sizing: border-box;
-    border: 1px solid black;
-    border-radius: 20px;
+    border-left: 1px solid darkolivegreen;
     margin: 20px;
     width: 40%;
+    justify-content: center;
 }
