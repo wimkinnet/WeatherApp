@@ -8,7 +8,7 @@ export default function AppLayout() {
     return (
         <>
             <div className="container">
-                <div className="weather-container">weather details</div>
+                <div className="weather-container"></div>
                 <div className="city-container">
                     <Cities />
                 </div>
