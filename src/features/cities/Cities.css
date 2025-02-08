@@ -12,6 +12,15 @@ input {
     padding: 20px;
 }
 
+.empty-search-list {
+    width: 100%;
+    display: block;
+    height: 200px;
+    background-color: rgb(179, 218, 233);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
 .search-list {
     width: 100%;
     display: block;
@@ -47,6 +56,19 @@ th {
     font-size: 16px;
     border-radius: 8px;
     height: 30px;
+    display: block;
+    cursor: pointer;
+}
+
+.sel-city-button {
+    padding: 0px 20px;
+    margin: 5px 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    height: 30px;
+    display: block;
+    cursor: pointer;
+    background-color: rgb(179, 200, 233);
 }
 
 .city-details {
@@ -70,3 +92,11 @@ iframe {
 li {
     margin-bottom: 5px;
 }
+
+.close {
+    cursor: default;
+    font-size: 12px;
+    position: relative;
+    top: -5px;
+    right: -15px;
+  }
